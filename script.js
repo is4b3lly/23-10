@@ -11,3 +11,15 @@ if(name === "") {
 }
 
 if
+
+
+
+
+if(pasword.length <6) {
+    errorMessage.textContent = "A enha deve ter pelo menos 6 caracteres";
+    return false;
+}
+
+errorMessage.textContent = "";
+alert("Cadastro realizado com sucesso!");
+return true;
